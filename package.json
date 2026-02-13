@@ -1,0 +1,36 @@
+{
+	"name": "manuel.vonstuckrad.net",
+	"description": "My personal website, built with Eleventy",
+	"version": "2.0.0",
+	"author": "Manuel von Stuckrad <mvstuckrad@pm.me>",
+	"homepage": "https://github.com/manuelpuchta/manuel.vonstuckrad.net#readme",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/manuelpuchta/manuel.vonstuckrad.net.git"
+	},
+	"bugs": {
+		"url": "https://github.com/manuelpuchta/manuel.vonstuckrad.net/issues"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-navigation": "^1.0.4",
+		"@11ty/eleventy-plugin-rss": "^2.0.4",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+		"cross-env": "^7.0.3",
+		"luxon": "^3.6.1",
+		"prismjs": "^1.30.0",
+		"zod": "^3.25.67",
+		"zod-validation-error": "^3.5.2"
+	},
+	"dependencies": {
+		"@zachleat/heading-anchors": "^1.0.5",
+		"markdown-it-footnote": "^4.0.0"
+	}
+}
