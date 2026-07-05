@@ -8,7 +8,7 @@ const eleventyNavigation = {
 # CV
 
 Location: Hamburg, Germany\
-Mail: [mvstuckrad[at]pm.me](mailto:mvstuckrad@pm.me)\
+Mail: it's on my [about](./about.njk) page
 Web: [https://manuel.vonstuckrad.net](https://manuel.vonstuckrad.net/)
 
 ## Manuel von Stuckrad (born Puchta)
@@ -134,4 +134,4 @@ Tech stack: _Django, AngularJS v1, Vanilla JS, AngularJS v1, Less, SCSS with BEM
 
 Still here? Thank you.
 
-Mail: [mvstuckrad[at]pm.me](mailto:mvstuckrad@pm.me)
+Mail: it's on my [about](./about.njk) page

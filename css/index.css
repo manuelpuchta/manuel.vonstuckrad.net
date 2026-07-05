@@ -364,3 +364,8 @@ header {
 .postlist-item > .post-tag {
 	align-self: center;
 }
+
+/* See: https://spencermortensen.com/articles/email-obfuscation/#text-display */
+span.email > span:nth-child(2) {
+	display: none;
+}
