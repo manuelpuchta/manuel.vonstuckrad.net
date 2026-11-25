@@ -21,7 +21,7 @@ const eleventyComputed = {
 ---
 <h1>Tagged “{{ tag }}”</h1>
 
-{% if tag == "music" %}<h2>My <a href="/concerts/">concert</a> list</h2>{% endif %}
+{% if tag == "music" %}<p>My <a href="/concerts/">concert</a> list</p>{% endif %}
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
